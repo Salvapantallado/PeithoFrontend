@@ -22,17 +22,17 @@ export const DELETE_STORIES = "DELETE_STORIES";
 
 export function getAllProducts() {
   return async (dispatch) => {
-    const res = products
-    dispatch({ type: "GET_PRODUCTS", payload: res})
-  }
+    const res = products;
+    dispatch({ type: "GET_PRODUCTS", payload: res });
+  };
 }
 
 export function getProductDetail(array, id) {
   return async (dispatch) => {
-        /* eslint-disable */
-        const res = await array.find((mappedProduct) => mappedProduct.id == id)
-  /* eslint-disable */
-    dispatch({ type: "PRODUCT_DETAIL", payload: res});
+    /* eslint-disable */
+    const res = await array.find((mappedProduct) => mappedProduct.id == id);
+    /* eslint-disable */
+    dispatch({ type: "PRODUCT_DETAIL", payload: res });
   };
 }
 export function clearProductDetail() {
@@ -93,6 +93,20 @@ export function filterItems(data, array) {
   };
 }
 
+export function filterByName(data, array) {
+  return async (dispatch) => {
+    try {
+      let res = await array.filter((item) => item.name.toLowerCase().includes(data.toLowerCase()));
+      if (data === "") {
+        res = []; 
+      }
+      dispatch({ type: "FILTER_ITEMS", payload: [...res] });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+}
+
 export function postProduct(input) {
   return async (dispatch) => {
     try {
@@ -143,11 +157,14 @@ export function editProduct(input) {
 export function deleteProduct(array, id) {
   return async (dispatch) => {
     try {
-      const res = await array.splice(array.findIndex(i => i.id === id), 1)
+      const res = await array.splice(
+        array.findIndex((i) => i.id === id),
+        1
+      );
       // const res = await array.filter(x => x.id !== id)
-      console.log(res, 'resdel');
-      console.log(array, 'arraydel');
-      dispatch({ type: "DELETE_PRODUCT", payload: res});
+      console.log(res, "resdel");
+      console.log(array, "arraydel");
+      dispatch({ type: "DELETE_PRODUCT", payload: res });
     } catch (err) {
       alert(err, "error en delete");
     }
@@ -165,8 +182,6 @@ export function deleteStories(id) {
     }
   };
 }
-
-
 
 // export const filterItems = (data, array) => (dispatch) => {
 // 	console.log(data);

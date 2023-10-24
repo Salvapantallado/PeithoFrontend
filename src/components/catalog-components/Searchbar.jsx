@@ -1,15 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../styles/catalog.css";
 import { Link } from "react-router-dom";
 import ClearIcon from "@mui/icons-material/Clear";
+import { filterByName } from "../../actions";
+import { useDispatch } from "react-redux";
 
-export default function Searchbar({ clothes }) {
+export default function Searchbar({ clothes, setCurrentPage }) {
   const [searchInput, setSearchInput] = useState("");
+  const dispatch = useDispatch();
+
 
   const handleChange = (e) => {
     e.preventDefault();
     setSearchInput(e.target.value);
   };
+
+  useEffect(() => {
+    dispatch(filterByName(searchInput, clothes))
+    setCurrentPage(1)
+       /* eslint-disable */
+      }, [searchInput])
+      /* eslint-disable */
+
 
   return (
     <div id="searchInput" className="searchbar">
@@ -27,8 +39,7 @@ export default function Searchbar({ clothes }) {
       </div>
       <div id="dropdown" className={searchInput === "" ? null : "dropdown"}>
         {searchInput !== ""
-          ? clothes
-              .filter((eachArrItem) =>
+          ? clothes?.filter((eachArrItem) =>
                 eachArrItem.name
                   .toLowerCase()
                   .includes(searchInput.toLowerCase())

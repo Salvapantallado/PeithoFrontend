@@ -153,8 +153,10 @@ export default function DetailCard({ screenTransition, setScreenTransition }) {
                         <h3>Detalles del producto:</h3>
                         <p>{productDetail.description}</p>
                         <br />
-                        <p>{productDetail.description2}</p>
                         <h1>ARS ${productDetail.price}</h1>
+                        <br />
+                        <p>{productDetail.description2}</p>
+                        <h3>ARS ${productDetail.price2}</h3>
                       </div>
                     ) : (
                       <div>

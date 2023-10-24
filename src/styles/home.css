@@ -96,6 +96,7 @@
 }
 .videodiv > img {
   width: -webkit-fill-available;
+  border-radius: 15px;
 }
 .inactiveRight {
   /* visibility: hidden; */

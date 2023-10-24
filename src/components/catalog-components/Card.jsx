@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { filterItems, getAllProducts, getFavorites } from "../../actions";
+import { filterItems, getFavorites } from "../../actions";
 import "../../styles/cards.css";
 import "animate.css";
 import { useSwipeable } from "react-swipeable";
@@ -140,7 +140,7 @@ export default function Card({
           <div>
 
         <Toaster position="bottom-center" reverseOrder={false} />
-        <Searchbar clothes={productsFromNewest} />
+        <Searchbar clothes={productList} currentPage={currentPage} setCurrentPage={setCurrentPage} />
         <div className="category-button">
           <button onClick={() => handleRemoveFilter()}>
             <h1>Todos los productos</h1>

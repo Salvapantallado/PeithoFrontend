@@ -147,6 +147,7 @@
   z-index: 3;
   width: 95%;
   padding: 0 3px;
+  display: none;
 }
 
 .search-dropdown {
@@ -248,10 +249,13 @@
     flex-direction: column;
     width: 95%;
     padding: 0 3px;
+    display: flex;
   }
 
+
+
   .search-dropdown {
-    border: 1px solid salmon;
+    border: 1px solid rgba(146, 111, 143, 0.534);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -273,9 +277,10 @@
   }
 
   .search-dropdown img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 15%;
+    margin: 2px;
   }
   #ClearBtn {
     position: absolute;
