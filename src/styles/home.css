@@ -95,7 +95,7 @@
   border-radius: 15px;
 }
 .videodiv > img {
-  width: -webkit-fill-available;
+  width: auto;
   border-radius: 15px;
 }
 .inactiveRight {
@@ -465,6 +465,14 @@ canvas {
     padding: 0;
     white-space: pre-wrap;
   }
+  .imgContainer:hover{
+    filter: brightness(1);
+  }
+    
+  .imgContainer:hover .card-body{
+    opacity: 1;
+    filter: brightness(1);
+  }
 
   .popular-grids img {
     height: 250px;
@@ -529,6 +537,8 @@ canvas {
     transition: all 400ms ease;
     /* transition-delay: 300ms; */
     z-index: 2;
+    display: flex;
+    justify-content: center;
   }
   .videodiv > video {
     height: 60vh;

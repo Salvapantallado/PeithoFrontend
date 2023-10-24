@@ -73,9 +73,9 @@
 
 @media screen and (max-width: 875px) {
 
-	.home .category-bubbles {
-		/* display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(33%, 3fr)); */
+	.home .category-bubbles  .bubbleGroupWrapper{
+		display: grid;
+		grid-template-columns: auto auto auto;
 		height: auto;
 		margin: 20px 0;
 	}
@@ -95,12 +95,12 @@
 		transform: none;
 		transition: none;
 	}
-	.bubbleGroupWrapper{
+	/* .bubbleGroupWrapper{
 		display: grid;
 		width: 100%;
 		grid-template-columns: auto auto auto;
 		gap: 15px 0;
-	}
+	} */
 	.category-bubbles .bubbleGroupWrapper{
 		display: grid;
 		width: 100%;

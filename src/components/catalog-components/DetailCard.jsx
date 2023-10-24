@@ -148,7 +148,7 @@ export default function DetailCard({ screenTransition, setScreenTransition }) {
                 <div className="detail-wrapper">
             <h2>{productDetail.name}</h2>
                   <div className="detail-container">
-                    {productDetail.description2 !== "" ? (
+                    {productDetail.price2 !== 0 ? (
                       <div className="detail-description">
                         <h3>Detalles del producto:</h3>
                         <p>{productDetail.description}</p>
@@ -161,6 +161,7 @@ export default function DetailCard({ screenTransition, setScreenTransition }) {
                     ) : (
                       <div>
                         <p>{productDetail.description}</p>
+                        <p>{productDetail.description2 !== "" ? productDetail.description2 : null}</p>
                         <h1>ARS ${productDetail.price}</h1>
                       </div>
                     )}

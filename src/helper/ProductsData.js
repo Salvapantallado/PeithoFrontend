@@ -259,60 +259,81 @@ const products = [
     ],
     product_qty: 1,
   },
+  // {
+  //   id: 17,
+  //   name: "Top microtul estampado",
+  //   description:
+  //     "Top hecho en microtul con estampado de ángeles, astal o dragones.",
+  //   price: 9600,
+  //   description2: "Puede hacerse en manga larga y en manga corta.",
+  //   price2: 8600,
+  //   category: ["tops"],
+  //   image: [
+  //     "https://media.discordapp.net/attachments/1149813754792513619/1166149708180369488/Top_Microtul_Angeles.jpg?ex=6549708c&is=6536fb8c&hm=c567cbb3965c9819ddefc9351c8ab9e3744e6ba7b3199761d08511c950445f27&=&width=569&height=701",
+  //     "https://media.discordapp.net/attachments/1149813754792513619/1166149703788929134/Top_Microtul_Astral.jpg?ex=6549708b&is=6536fb8b&hm=ae7525e8d3916e17bf59c024abcd8d40f66aabec000613c7e1f423e8cf3cfadf&=&width=637&height=701",
+  //     "https://media.discordapp.net/attachments/1149813754792513619/1166149704623599778/Top_Microtul_Dragones.jpg?ex=6549708b&is=6536fb8b&hm=8981adba08bc714d66a92462dc1e87dca3d3e80e9b6cb254f609b39ad83f2e52&=&width=585&height=701",
+  //   ],
+  //   product_qty: 1,
+  // },
   {
     id: 17,
-    name: "Top microtul estampado",
+    name: "Top microtul ángeles",
     description:
-      "Top hecho en microtul con estampado de ángeles, astal o dragones.",
+      "Top hecho en microtul estampado, puede hacerse en manga larga y en manga corta.",
     price: 9600,
-    description2: "Puede hacerse en manga larga y en manga corta.",
+    description2: "Top microtul ángeles descripción 2",
     price2: 8600,
     category: ["tops"],
     image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149708180369488/Top_Microtul_Angeles.jpg?ex=6549708c&is=6536fb8c&hm=c567cbb3965c9819ddefc9351c8ab9e3744e6ba7b3199761d08511c950445f27&=&width=569&height=701",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 18,
+    name: "Top microtul astral",
+    description: "Descripción Top microtul astral",
+    price: 9600,
+    description2: "Top microtul astral descripción 2",
+    price2: 8600,
+    category: ["tops"],
+    image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149703788929134/Top_Microtul_Astral.jpg?ex=6549708b&is=6536fb8b&hm=ae7525e8d3916e17bf59c024abcd8d40f66aabec000613c7e1f423e8cf3cfadf&=&width=637&height=701",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 19,
+    name: "Top microtul dragones",
+    description: "Descripción Top microtul dragones",
+    price: 9600,
+    description2: "Top microtul dragones descripción 2",
+    price2: 8600,
+    category: ["tops"],
+    image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149704623599778/Top_Microtul_Dragones.jpg?ex=6549708b&is=6536fb8b&hm=8981adba08bc714d66a92462dc1e87dca3d3e80e9b6cb254f609b39ad83f2e52&=&width=585&height=701",
     ],
     product_qty: 1,
   },
-  // {
-  // 	id: 17,
-  // 	name: "Top microtul ángeles",
-  // 	description:
-  // 		"Top hecho en microtul estampado, puede hacerse en manga larga y en manga corta.",
-  // 	price: 4800,
-  // 	description2: "Top microtul ángeles descripción 2",
-  // 	price2: 4450,
-  // 	category: ["tops"],
-  // 	image: ["https://media.discordapp.net/attachments/1149813754792513619/1166149708180369488/Top_Microtul_Angeles.jpg?ex=6549708c&is=6536fb8c&hm=c567cbb3965c9819ddefc9351c8ab9e3744e6ba7b3199761d08511c950445f27&=&width=569&height=701"],
-  // 	product_qty: 1,
-  // },
-  // {
-  // 	id: 18,
-  // 	name: "Top microtul astral",
-  // 	description:
-  // 		"Descripción Top microtul astral",
-  // 	price: 4800,
-  // 	description2: "Top microtul astral descripción 2",
-  // 	price2: 4450,
-  // 	category: ["tops"],
-  // 	image: ["https://media.discordapp.net/attachments/1149813754792513619/1166149703788929134/Top_Microtul_Astral.jpg?ex=6549708b&is=6536fb8b&hm=ae7525e8d3916e17bf59c024abcd8d40f66aabec000613c7e1f423e8cf3cfadf&=&width=637&height=701"],
-  // 	product_qty: 1,
-  // },
-  // {
-  // 	id: 19,
-  // 	name: "Top microtul dragones",
-  // 	description:
-  // 		"Descripción Top microtul dragones",
-  // 	price: 4800,
-  // 	description2: "Top microtul dragones descripción 2",
-  // 	price2: 4450,
-  // 	category: ["tops"],
-  // 	image: ["https://media.discordapp.net/attachments/1149813754792513619/1166149704623599778/Top_Microtul_Dragones.jpg?ex=6549708b&is=6536fb8b&hm=8981adba08bc714d66a92462dc1e87dca3d3e80e9b6cb254f609b39ad83f2e52&=&width=585&height=701"],
-  // 	product_qty: 1,
-  // },
   {
     id: 20,
+    name: "Top Panda",
+    description:
+      "Top hecho en gabardina, el diseño lleva pinzas y hebillas metálicas.",
+    price: 7000,
+    description2: "",
+    price2: 0,
+    category: ["tops"],
+    image: [
+      "https://media.discordapp.net/attachments/1149813754792513619/1166149706813014067/Top_Panda_1.jpg?ex=6549708c&is=6536fb8c&hm=09ccd1dd42d37d91a6301b409420a94a0bfc7bc804945e0353cb5e1c4175cb26&=&width=526&height=701",
+      "https://media.discordapp.net/attachments/1149813754792513619/1166149707467333763/Top_Panda_2.jpg?ex=6549708c&is=6536fb8c&hm=c4eae72f34b01ea140b67d3ba44bcbf58966dbc984582293317ce85c976070ae&=&width=394&height=700",
+      "https://media.discordapp.net/attachments/1149813754792513619/1166149735934078997/Top_Panda_3.jpg?ex=65497093&is=6536fb93&hm=f0e619d60452f43d920ab26b244f17eb34882013ad1fb6a5634aec4075fa1790&=&width=394&height=700",
+      "https://media.discordapp.net/attachments/1149813754792513619/1166149737032982609/Top_Panda_4.jpg?ex=65497093&is=6536fb93&hm=8fbfdd1def9dfd22f1b44ef01228e0bd1ce5441dc377000bf85dba2f86cf5c94&=&width=394&height=700",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 21,
     name: "Vestido Liz",
     description: "Descripción Vestido Liz",
     price: 8300,
@@ -328,8 +349,8 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 21,
-    name: "Jardinero Over",
+    id: 22,
+    name: "Jardinero Over Marrón",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
     price: 20700,
@@ -341,10 +362,38 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149209980948522/Jardinero_Over_Marron_1.jpg?ex=65497015&is=6536fb15&hm=934a6f77786c80e2c68c23220067e95301979b937df5e613ba43a44642cad51e&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149211071463555/Jardinero_Over_Marron_2.jpg?ex=65497015&is=6536fb15&hm=d22ed008ea0010583f38fb6a44b3bc3849ec0cbdd32101376aaf25f732e1bb1b&=&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149204582875166/Jardinero_Over_Marron_3.jpg?ex=65497014&is=6536fb14&hm=23aece7f2aea2e237a00285cac9c1065be0f16c07a40ece20d24fd449f8317dc&=&width=526&height=701",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 23,
+    name: "Jardinero Over Negro",
+    description:
+      "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
+    price: 20700,
+    description2:
+      "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
+    price2: 0,
+    category: ["jardinero"],
+    image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149205895696445/Jardinero_Over_Negro_1.jpg?ex=65497014&is=6536fb14&hm=acfd8ff97761c178809bfb3d501f31a171828e71e49cfd40237337bb1c5f6d47&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149206956855458/Jardinero_Over_Negro_2.jpg?ex=65497014&is=6536fb14&hm=fe59ea12384e89efc7d26858727b722102b5763c0499a2fe3620ee260e9ee93c&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149207846043709/Jardinero_Over_Negro_4.jpg?ex=65497015&is=6536fb15&hm=39634e8a1a24552c315e8e12ac57e0b02b586a08fd2154b99fc53877c188483b&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149209112707112/Jardinero_Over_Negro_5.jpg?ex=65497015&is=6536fb15&hm=2fc23ca0ec236d69c10e64f75bc6d8676fd89103eff0bb51de804d42f37ac162&=&width=526&height=701",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 24,
+    name: "Jardinero Over Jean",
+    description:
+      "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
+    price: 20700,
+    description2:
+      "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
+    price2: 0,
+    category: ["jardinero"],
+    image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149238439284777/Jardinero_Over_Jean_1.jpg?ex=6549701c&is=6536fb1c&hm=5c9aec75fee50aad9390aef1c5dc385b784b8c255b5f3ee632d4e48ab2a76576&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149240112824330/Jardinero_Over_Jean_2.jpg?ex=6549701c&is=6536fb1c&hm=39a4829eb332387ff525659a43661131c092f23269825ebb0ce71342b6cc48d9&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149241501130812/Jardinero_Over_Jean_3.jpg?ex=6549701d&is=6536fb1d&hm=bdbf237190a9d845f5fa17ec27619076a421636e0067f5b7bf7ddbe090703214&=&width=394&height=700",
@@ -352,7 +401,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 22,
+    id: 25,
     name: "Vestido San Valentín",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
@@ -369,7 +418,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 23,
+    id: 26,
     name: "Vestido San Valentín manga larga",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
@@ -387,7 +436,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 24,
+    id: 27,
     name: "Vestido Lexie",
     description: "Vestido hecho en corderoy!",
     price: 16500,
@@ -403,7 +452,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 25,
+    id: 28,
     name: "Sweater Nubes",
     description: "El sweater Nube está hecho en piel de cordero bifaz.",
     price: 16900,
@@ -418,7 +467,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 26,
+    id: 29,
     name: "Vestido Margot",
     description:
       "Vestido hecho en corderoy de terciopelo elastizado, de una calidad única.",
@@ -435,7 +484,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 27,
+    id: 30,
     name: "Vestido Atenea",
     description:
       "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
@@ -459,7 +508,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 28,
+    id: 31,
     name: "Vestido Atenea sin mangas",
     description:
       "Vestido de diseño súper romántico! Las tiras de este vestido se ajustan en el moño del escote. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
