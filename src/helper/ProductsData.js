@@ -259,22 +259,6 @@ const products = [
     ],
     product_qty: 1,
   },
-  // {
-  //   id: 17,
-  //   name: "Top microtul estampado",
-  //   description:
-  //     "Top hecho en microtul con estampado de ángeles, astal o dragones.",
-  //   price: 9600,
-  //   description2: "Puede hacerse en manga larga y en manga corta.",
-  //   price2: 8600,
-  //   category: ["tops"],
-  //   image: [
-  //     "https://media.discordapp.net/attachments/1149813754792513619/1166149708180369488/Top_Microtul_Angeles.jpg?ex=6549708c&is=6536fb8c&hm=c567cbb3965c9819ddefc9351c8ab9e3744e6ba7b3199761d08511c950445f27&=&width=569&height=701",
-  //     "https://media.discordapp.net/attachments/1149813754792513619/1166149703788929134/Top_Microtul_Astral.jpg?ex=6549708b&is=6536fb8b&hm=ae7525e8d3916e17bf59c024abcd8d40f66aabec000613c7e1f423e8cf3cfadf&=&width=637&height=701",
-  //     "https://media.discordapp.net/attachments/1149813754792513619/1166149704623599778/Top_Microtul_Dragones.jpg?ex=6549708b&is=6536fb8b&hm=8981adba08bc714d66a92462dc1e87dca3d3e80e9b6cb254f609b39ad83f2e52&=&width=585&height=701",
-  //   ],
-  //   product_qty: 1,
-  // },
   {
     id: 17,
     name: "Top microtul ángeles",
@@ -334,22 +318,6 @@ const products = [
   },
   {
     id: 21,
-    name: "Vestido Liz",
-    description: "Descripción Vestido Liz",
-    price: 8300,
-    description2: "Vestido Liz descripción 2",
-    price2: 0,
-    category: ["vestidos"],
-    image: [
-      "/ProductImages/Vestido-Liz/Vestido-Liz-1.jpeg",
-      "/ProductImages/Vestido-Liz/Vestido-Liz-2.jpeg",
-      "/ProductImages/Vestido-Liz/Vestido-Liz-3.jpeg",
-      "/ProductImages/Vestido-Liz/Vestido-Liz-4.jpeg",
-    ],
-    product_qty: 1,
-  },
-  {
-    id: 22,
     name: "Jardinero Over Marrón",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
@@ -366,7 +334,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 23,
+    id: 22,
     name: "Jardinero Over Negro",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
@@ -384,7 +352,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 24,
+    id: 23,
     name: "Jardinero Over Jean",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
@@ -401,7 +369,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 25,
+    id: 24,
     name: "Vestido San Valentín",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
@@ -418,7 +386,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 26,
+    id: 25,
     name: "Vestido San Valentín manga larga",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
@@ -436,7 +404,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 27,
+    id: 26,
     name: "Vestido Lexie",
     description: "Vestido hecho en corderoy!",
     price: 16500,
@@ -452,7 +420,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 28,
+    id: 27,
     name: "Sweater Nubes",
     description: "El sweater Nube está hecho en piel de cordero bifaz.",
     price: 16900,
@@ -467,7 +435,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 29,
+    id: 28,
     name: "Vestido Margot",
     description:
       "Vestido hecho en corderoy de terciopelo elastizado, de una calidad única.",
@@ -484,8 +452,8 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 30,
-    name: "Vestido Atenea",
+    id: 29,
+    name: "Vestido Atenea Celeste",
     description:
       "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
     price: 16700,
@@ -499,8 +467,34 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149800899661895/Vestido_Atenea_Celeste_4.jpg?ex=654970a2&is=6536fba2&hm=945d33fb419092873c1501738e0768c4a7835b494b151669e304dc4dcb019414&=&width=526&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149801461690428/Vestido_Atenea_Celeste_5.jpg?ex=654970a2&is=6536fba2&hm=3df372946ff21f72d8df8edc4d96b112b24ce8537f4dc05c40ee1ce5648178aa&=&width=525&height=700",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149801910472766/Vestido_Atenea_Celeste_6.jpg?ex=654970a2&is=6536fba2&hm=eb1c89cc0ff1aa28d0973c45ca47afa7b4aff2b487c93c4f296962d8c76da505&=&width=394&height=700",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 30,
+    name: "Vestido Atenea Flores",
+    description:
+      "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
+    price: 16700,
+    description2: "Puede hacerse en varios diseños estampados y colores lisos!",
+    price2: 0,
+    category: ["vestidos"],
+    image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149802451554344/Vestido_Atenea_Flores_1.jpg?ex=654970a2&is=6536fba2&hm=d6dfd20ae5bd5a3df1be8ec32763788b78ab263b74eedd237973c7995ca89dd9&=&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149803466567740/Vestido_Atenea_Flores_2.jpg?ex=654970a3&is=6536fba3&hm=1e2918edd529e5eff7126d721ac82cbd3998b40d1ea027f39f4aecbd340524db&=&width=394&height=700",
+    ],
+    product_qty: 1,
+  },
+  {
+    id: 31,
+    name: "Vestido Atenea Liso",
+    description:
+      "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
+    price: 16700,
+    description2: "Puede hacerse en varios diseños estampados y colores lisos!",
+    price2: 0,
+    category: ["vestidos"],
+    image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149804070539264/Vestido_Atenea_Negro_1.jpg?ex=654970a3&is=6536fba3&hm=9a6efd04e48d5ad94287c0df597169e2ef586a7ba4699a30632e6875c11f1df4&=&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149798718607410/Vestido_Atenea_Negro_2.jpg?ex=654970a2&is=6536fba2&hm=795a95736e48279bd590e13520015cd596d0c21069e525666eec3603d1d1e61b&=&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149826711392286/Vestido_Atenea_Negro_3.jpg?ex=654970a8&is=6536fba8&hm=611f197511d2b4f06a0aa25262baf0fd0315a1d01b2b7d6ea5a061c36c21a4bd&=&width=394&height=700",
@@ -508,7 +502,7 @@ const products = [
     product_qty: 1,
   },
   {
-    id: 31,
+    id: 32,
     name: "Vestido Atenea sin mangas",
     description:
       "Vestido de diseño súper romántico! Las tiras de este vestido se ajustan en el moño del escote. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
