@@ -1,5 +1,3 @@
-import { useRef } from "react";
-import { useDraggable } from "react-use-draggable-scroll";
 import { Link } from "react-router-dom";
 
 export default function Popular({ allProducts }) {
@@ -10,13 +8,8 @@ export default function Popular({ allProducts }) {
   const popularSlice2 = mainPopular.slice(6);
   const popularItems2 = popularSlice2.concat(popularSlice2)
 
-  const ref = useRef();
-  const {events} = useDraggable(ref);
-
   return (
-    <div className="popular-container" 
-    {...events} 
-    ref={ref}>
+    <div className="popular-container">
       <div className="section-title">
         <h2>Más Populares</h2>
       </div>
@@ -33,7 +26,6 @@ export default function Popular({ allProducts }) {
                   popItem.image.length !== 1 ? popItem.image[0] : popItem.image
                 }
                 alt="product sample"
-                draggable={false}
               />
             </Link>
            </div>

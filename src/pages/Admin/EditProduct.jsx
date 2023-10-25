@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 // import { editProduct, getAllProducts } from "../../actions";
 import ImageUploading from "react-images-uploading";
@@ -12,13 +12,13 @@ import MobileNavbar from "../../components/shared-components/MobileNavbar";
 
 export default function EditProduct() {
   const { id } = useParams();
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const products = useSelector((state) => state.allProducts);
   const productToEdit = products.find((item) => item.id === parseInt(id));
   const [screenTransition, setScreenTransition] = useState(false);
-  const [loadScreen, setLoadScreen] = useState(false);
+  // const [loadScreen, setLoadScreen] = useState(false);
 
   const [images, setImages] = React.useState([]);
   const maxNumber = 69;

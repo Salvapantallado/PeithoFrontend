@@ -15,6 +15,7 @@ import EditProduct from "./pages/Admin/EditProduct";
 import { useState } from "react";
 import ScrollToTop from "./components/ScrollToTop";
 import MeasureTable from "./pages/MeasureTable/MeasureTable";
+import PageNotFound from "./pages/404";
 
 function App() {
 	const history = createBrowserHistory();
@@ -33,6 +34,7 @@ function App() {
 					<Route exact path="/admin" element={<Admin screenTransition={screenTransition} setScreenTransition={setScreenTransition}/>}/>
 					<Route exact path="/admin/editar/:id" element={<EditProduct/>} />
 					<Route exact path="/admin/agregar" element={<AddProduct/>} />
+					<Route path="*" element={<PageNotFound screenTransition={screenTransition} setScreenTransition={setScreenTransition}/> } />
 				</Routes>
 			</Router>
 		</Provider>

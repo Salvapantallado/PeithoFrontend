@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 // import { postProduct } from "../../actions";
 import ImageUploading from "react-images-uploading";
@@ -10,10 +10,10 @@ import Navbar from "../../components/shared-components/Navbar";
 import MobileNavbar from "../../components/shared-components/MobileNavbar";
 
 export default function AddProduct() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const navigate = useNavigate();
   const [screenTransition, setScreenTransition] = useState(false);
-  const [loadScreen, setLoadScreen] = useState(false);
+  // const [loadScreen, setLoadScreen] = useState(false);
 
   const [images, setImages] = React.useState([]);
   const maxNumber = 69;
