@@ -275,6 +275,7 @@
   width: 90%;
   top: 70%;
   opacity: 0;
+  white-space: pre-wrap;
 }
 
 .imgContainer:hover .card-body{

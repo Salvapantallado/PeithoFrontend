@@ -15,12 +15,12 @@ export default function Popular({ allProducts }) {
       </div>
       <div className="popular-wrapper1">
         <div className="popular-grids">
-          {popularItems?.map((popItem, index) => (
-            <div key={index} className="imgContainer">
+          {popularItems?.map((popItem) => (
+            <div key={popItem.id} className="imgContainer">
             <div className="card-body">
                 <h3>{popItem.name}</h3>
               </div>
-            <Link to={`/catalogo/${popItem.id}`} key={index}>
+            <Link to={`/catalogo/${popItem.id}`} key={popItem.id}>
               <img
                 src={
                   popItem.image.length !== 1 ? popItem.image[0] : popItem.image
@@ -34,12 +34,12 @@ export default function Popular({ allProducts }) {
       </div>
       <div className="popular-wrapper2">
         <div className="popular-grids2">
-          {popularItems2?.map((popItem, index) => (
-            <div key={index} className="imgContainer">
+          {popularItems2?.map((popItem) => (
+            <div key={popItem.id} className="imgContainer">
               <div className="card-body">
                 <h3>{popItem.name}</h3>
               </div>
-            <Link to={`/catalogo/${popItem.id}`} key={index}>
+            <Link to={`/catalogo/${popItem.id}`} key={popItem.id}>
               <img
                 src={
                   popItem.image.length !== 1 ? popItem.image[0] : popItem.image
