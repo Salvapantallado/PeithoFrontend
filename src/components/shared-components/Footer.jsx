@@ -34,6 +34,9 @@ export default function Footer() {
           <p><a target="_blank" rel="noreferrer" style={{fontFamily: "Unifrakturcook", color: "slateblue"}} href="https://www.instagram.com/peitho.ok/"><img style={{width: "16px", height: "16px"}} src={InstaIcon} alt="instaicon"/>Peitho Diseños</a></p>
         </div>
       </div>
+      <div className="liwi">
+        <h5>Página hecha por: <a href="https://lighuenm-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">LEMDEV</a></h5>
+      </div>
     </div>
   );
 }
