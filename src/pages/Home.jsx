@@ -47,7 +47,7 @@ export default function Home({
       {screenTransition ? <TransitionOut /> : <HomeLoad />}
       <Ticker />
       <MainImage />
-      <div className="home">
+      <div className="home" id="home">
         <Navbar
           screenTransition={screenTransition}
           setScreenTransition={setScreenTransition}

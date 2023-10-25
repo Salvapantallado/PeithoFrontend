@@ -57,7 +57,6 @@ export default function AddProduct() {
   async function handleFormSubmit(e) {
     // e.preventDefault();
     // dispatch(postProduct(input));
-    // console.log(input);
 
     // alert("Producto agregado!");
 

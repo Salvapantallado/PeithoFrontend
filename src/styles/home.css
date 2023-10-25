@@ -313,16 +313,23 @@
   animation-play-state: paused;
 }
 
-.popular-grids img {
+.popular-grids img, .popular-grids2 img  {
   height: 350px;
   max-width: 250px;
   margin: 0 10px;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
-.popular-grids2 img {
-  height: 350px;
-  max-width: 250px;
-  margin: 0 10px;
+.popular-grids2 a, .popular-grids a {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .wrapper {

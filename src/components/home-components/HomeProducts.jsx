@@ -10,7 +10,6 @@ export default function HomeProducts() {
 	// const dispatch = useDispatch();
 	const allProducts = useSelector((state) => state.allProducts);
 	const allStories = useSelector((state) => state.allStories);
-	console.log(allProducts, "esto es el state de product");
 	
 
 	// useEffect(() => {

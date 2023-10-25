@@ -49,7 +49,6 @@ export default function DetailCard({ screenTransition, setScreenTransition }) {
     }, 1500);
   }, [productDetail?.image]);
 
-  console.log(productDetail, "PDTL");
 
     useEffect(() => {
       dispatch(getProductDetail(allProducts, id));

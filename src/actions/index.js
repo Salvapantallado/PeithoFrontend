@@ -85,7 +85,6 @@ export function filterItems(data, array) {
       if (data === "all") {
         res = [];
       }
-      // console.log(res, "ASDFAERADSF");
       dispatch({ type: "FILTER_ITEMS", payload: [...res] });
     } catch (error) {
       console.log(error);
@@ -145,7 +144,6 @@ export function editProduct(input) {
         input || `http://localhost:3001/catalogo/${input.id}`,
         input
       );
-      console.log(res.data, "test");
       dispatch({ type: EDIT_PRODUCT, payload: res.data });
     } catch (err) {
       console.log(err);
@@ -161,9 +159,6 @@ export function deleteProduct(array, id) {
         array.findIndex((i) => i.id === id),
         1
       );
-      // const res = await array.filter(x => x.id !== id)
-      console.log(res, "resdel");
-      console.log(array, "arraydel");
       dispatch({ type: "DELETE_PRODUCT", payload: res });
     } catch (err) {
       alert(err, "error en delete");
@@ -184,7 +179,6 @@ export function deleteStories(id) {
 }
 
 // export const filterItems = (data, array) => (dispatch) => {
-// 	console.log(data);
 // 	if(data) {
 // 		const res = array.filter(x => x.category === data);
 // 		dispatch({ type: FILTER_ITEMS, payload: [...res]})

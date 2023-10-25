@@ -23,7 +23,7 @@ export default function EditProduct() {
   const [images, setImages] = React.useState([]);
   const maxNumber = 69;
   const onChange = (imageList) => {
-    console.log(imageList);
+    // console.log(imageList);
     setImages(imageList);
   };
 
@@ -53,15 +53,15 @@ export default function EditProduct() {
       });
       setImages(productToEdit.image?.map((x) => ({ data_url: x })));
       setCategory(productToEdit.categories[0].name);
-      console.log(input, "input");
+      // console.log(input, "input");
     }
     /* eslint-disable */
   }, [productToEdit]);
   /* eslint-disable */
 
   useEffect(() => {
-    console.log(input, "refresh");
-    console.log(Category);
+    // console.log(input, "refresh");
+    // console.log(Category);
     setInput({
       ...input,
       category: Category,
@@ -80,7 +80,7 @@ export default function EditProduct() {
 
   const handleCategories = (e) => {
     if (Category === "") return;
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setCategory(e.target.value);
   };
 
