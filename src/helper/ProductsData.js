@@ -64,9 +64,9 @@ const products = [
     name: "Camisa Unisex",
     description:
       "La textura de la tela es MUY linda y cómoda, y los colores son hermosos. Talle aprox M/L pueden pedir las medidas ❤️",
-    price: 8040,
+    price: 15200,
     description2: "Camisa tipo crop precio alternativo",
-    price2: 7380,
+    price2: 13900,
     category: ["camisas"],
     image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1166148950240268328/Camisa_Corazones_1.jpg?ex=65496fd7&is=6536fad7&hm=67ba1b3f162e8328cdc915bc219b5ae89db000e2febf25714ca4c37b2a6e352d&=&width=394&height=700",
