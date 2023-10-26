@@ -99,7 +99,7 @@
 
 .image-box {
   display: flex;
-  width: 100%;
+  width: 50%;
   flex-direction: column-reverse;
   align-items: center;
   background-image: url("../images/Home/Bannerfinalfinal.jpeg");
@@ -271,6 +271,9 @@
   }
   .detail-link {
     margin: 4vh 0 2vh 4vw;
+  }
+  .image-box{
+    width: 100%;
   }
   /* .detail-container {
     margin: 0 10% 10% 10%;
