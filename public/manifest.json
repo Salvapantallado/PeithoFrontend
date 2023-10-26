@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Peitho",
+  "name": "Catálogo de ropa Peitho",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,6 +16,11 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "preview.png",
+      "type": "image/png",
+      "sizes": "1904x972"
     }
   ],
   "start_url": ".",
