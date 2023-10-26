@@ -49,7 +49,7 @@ const products = [
     name: "Falda Media Campana",
     description:
       "Se hace en fibrana previamente lavada, muchas estampas y colores lisos disponibles! Con cintura elastizada.",
-    price: 80000,
+    price: 8000,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -373,7 +373,7 @@ const products = [
     name: "Vestido San Valentín",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
-    price: 8000,
+    price: 14900,
     description2: "Manga larga precio alternativo",
     price2: 0,
     category: ["vestidos"],
@@ -390,7 +390,7 @@ const products = [
     name: "Vestido San Valentín manga larga",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
-    price: 8700,
+    price: 16100,
     description2: "Manga larga precio alternativo",
     price2: 0,
     category: ["vestidos"],
