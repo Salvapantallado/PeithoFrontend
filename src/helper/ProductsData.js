@@ -423,7 +423,7 @@ const products = [
     id: 27,
     name: "Sweater Nubes",
     description: "El sweater Nube está hecho en piel de cordero bifaz.",
-    price: 16900,
+    price: 18500,
     description2: "Súper suavecito, cómodo, calentito y hermoso!",
     price2: 0,
     category: ["abrigos"],
