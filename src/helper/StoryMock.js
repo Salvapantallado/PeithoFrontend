@@ -1,6 +1,6 @@
 const stories = [
   {
-    url: "hhttps://media.discordapp.net/attachments/1149813754792513619/1179518369402204370/Para_Historias_1.jpg?ex=657a1315&is=65679e15&hm=b6513ab567a65ffe689a3cdbd831fa830b7cfb47f4da20d84aa746a461d71f23&=&format=webp&width=325&height=579",
+    url: "https://media.discordapp.net/attachments/1149813754792513619/1179518369402204370/Para_Historias_1.jpg?ex=657a1315&is=65679e15&hm=b6513ab567a65ffe689a3cdbd831fa830b7cfb47f4da20d84aa746a461d71f23&=&format=webp&width=325&height=579",
     type: "img",
   },
   {
