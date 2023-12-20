@@ -233,7 +233,7 @@ const products = [
     id: 15,
     name: "Vestido Peter",
     description: "Vestido hecho en lino, lleva bolsillos grandes por delante!",
-    price: 15500,
+    price: 16700,
     description2:
       "Es muy cómodo y lindo a la vista, puede hacerse en varios colores!",
     price2: 0,
