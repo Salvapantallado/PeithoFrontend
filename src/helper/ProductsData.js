@@ -560,7 +560,7 @@ const products = [
     name: "Falda Annie",
     description:
       "Hechas en gabardina rigida, faldas confeccionadas tipo libro con botones en ambos lados! Se hace a pedido y por talle.",
-    price: 10400,
+    price: 11900,
     description2:
       "Colores disponibles: Negro, verde militar, bordo, marron y mostaza.",
     price2: 0,
