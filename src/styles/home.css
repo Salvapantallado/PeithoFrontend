@@ -190,6 +190,7 @@
 .LittleImagesWrapper {
   backdrop-filter: contrast();
   height: 640px;
+  overflow: auto;
 }
 
 .LittleImages img {
