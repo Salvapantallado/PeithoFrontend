@@ -136,6 +136,9 @@ export default function DetailCard({ screenTransition, setScreenTransition }) {
                       : null}
                   </div>
                   <div className={` ${activeIndex ? `detail-zoom` : `prev-img`}`} key={previewImage} onClick={() => setActiveIndex(!activeIndex)}>
+                    {productDetail.product_qty === 0 ? <div className="not-available">
+                      <span>Modelo no disponible</span>
+                    </div> : null }
                     {previewImage === "" ? (
                       <img src={productDetail?.image[0]} alt="" />
                     ) : (

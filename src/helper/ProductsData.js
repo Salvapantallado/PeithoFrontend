@@ -468,7 +468,7 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149801461690428/Vestido_Atenea_Celeste_5.jpg?ex=65e65322&is=65d3de22&hm=464bcf27894b120e45f04a91929f34dc2a9a6a477d3e3c428b42c0ad61772fff&=&format=webp&width=525&height=700",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149801910472766/Vestido_Atenea_Celeste_6.jpg?ex=65e65322&is=65d3de22&hm=a4ab9ef7f3af52f2fd4ff455a5f406d2ecbd05b25561e9e356c5b52235394985&=&format=webp&width=394&height=700",
     ],
-    product_qty: 1,
+    product_qty: 0,
   },
   {
     id: 30,
@@ -483,7 +483,7 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149802451554344/Vestido_Atenea_Flores_1.jpg?ex=65e65322&is=65d3de22&hm=b97eea753ab250df4d41b4dd2011614fab8c949d675e397a2c242951a5cddde7&=&format=webp&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149803466567740/Vestido_Atenea_Flores_2.jpg?ex=65e65323&is=65d3de23&hm=358837d4409875100a3840ccac13cad87d2496e5992da9e8c15d797608d234ae&=&format=webp&width=394&height=700",
     ],
-    product_qty: 1,
+    product_qty: 0,
   },
   {
     id: 31,
@@ -499,7 +499,7 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149798718607410/Vestido_Atenea_Negro_2.jpg?ex=65e65322&is=65d3de22&hm=eafbd0aaec24b924d0f728e021f68356f04c3ea3228edcc92f0e1e740bbcf9a3&=&format=webp&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149826711392286/Vestido_Atenea_Negro_3.jpg?ex=65e65328&is=65d3de28&hm=66a7d66c57e2169e5d8bfc42bbd61a03f253cf21988d182c0ee22c83d66c84a4&=&format=webp&width=394&height=700",
     ],
-    product_qty: 1,
+    product_qty: 0,
   },
   {
     id: 32,
@@ -518,7 +518,7 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1166149829488029726/Vestido_Atenea_Sin_Mangas_10.jpg?ex=65e65329&is=65d3de29&hm=993fe0531e38dbf7965987783e17e680e20ee97f1399deb57994627a839a07a2&=&format=webp&width=394&height=701",
       "https://media.discordapp.net/attachments/1149813754792513619/1166149830066835497/Vestido_Atenea_Sin_Mangas_11.jpg?ex=65e65329&is=65d3de29&hm=7fa12e605d13a3b6f80163dc2044627a2454189836886ef70140e7ee187002af&=&format=webp&width=526&height=701",
     ],
-    product_qty: 1,
+    product_qty: 0,
   },
   {
     id: 33,
@@ -600,7 +600,7 @@ const products = [
     price: 24100,
     description2:
       "Pueden hacerse en más colores a pedido!",
-    price2: 0,
+    price2: 1,
     category: ["jardinero"],
     image: [
       "https://media.discordapp.net/attachments/1149813754792513619/1199834203647377480/Enterito-Seri-Celeste.jpeg?ex=65e8e5ad&is=65d670ad&hm=17bc25a49d948be25d5092e47f0c7f69666d21e639b86e72fd4cdeac6d7a3eef&=&format=webp&width=526&height=701",
