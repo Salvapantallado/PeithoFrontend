@@ -162,7 +162,7 @@ const products = [
     name: "Falda Cindy",
     description:
       "La falda Cindy es una falda de corte clásico, pensada para que puedas diseñarla como te guste, estampada, lisa, en gabardina o en jean!",
-    price: 11800,
+    price: 13700,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -181,7 +181,7 @@ const products = [
     name: "Falda Cindy Lana",
     description:
       "Esta falda es igual a la falda Cindy pero se hace en lana sintética",
-    price: 13100,
+    price: 14100,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -615,7 +615,7 @@ const products = [
     name: "Remeras Combinadas",
     description:
       "Hechas en tela jersey premium elastizada.",
-    price: 20700,
+    price: 13700,
     description2:
       "Colores disponibles: Beige, Marrón, Rosa, Rosa claro, Blanco y Negro.",
     price2: 0,
