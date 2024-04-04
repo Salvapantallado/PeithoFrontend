@@ -17,9 +17,9 @@ const products = [
     id: 2,
     name: "Top microtul",
     description: "Top hecho en microtul, muchos colores disponibles!",
-    price: 12500,
+    price: 12900,
     description2: "También se hace en mangas corta.",
-    price2: 11500,
+    price2: 11800,
     category: ["tops"],
     image: [
       "https://live.staticflickr.com/65535/53631970985_1c9234494b_b.jpg",
@@ -33,7 +33,7 @@ const products = [
     name: "Falda Lea",
     description:
       "Se hace en gabardina, varios colores y estampas cuadrilles disponibles!",
-    price: 14600,
+    price: 15200,
     description2: "*Estampa de la foto no disponible!",
     price2: 0,
     category: ["faldas"],
@@ -84,7 +84,7 @@ const products = [
     id: 6,
     name: "Falda Cuadrille",
     description: "Tela de gabardina elastizada! (Sin cierre)",
-    price: 11400,
+    price: 11700,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -98,7 +98,7 @@ const products = [
     id: 7,
     name: "Falda Cutie",
     description: "Falda semitableada por el frente en corte A.",
-    price: 14500,
+    price: 15100,
     description2: "Se hace en gabardina. Varios colores disponibles!",
     price2: 0,
     category: ["faldas"],
@@ -116,7 +116,7 @@ const products = [
     name: "Vestido Panda",
     description:
       "Vestido hecho en gabardina, el diseño lleva pinzas y hebillas metálicas, con un cinturón frontal que se ubica en el bajo busto.",
-    price: 23100,
+    price: 23700,
     description2: "Ideal para usar solo o con otras prendas por debajo!",
     price2: 0,
     category: ["vestidos"],
@@ -148,7 +148,7 @@ const products = [
     name: "Falda Tableada",
     description:
       "Falda tableada, puede hacerse en gabardina en varios colores!",
-    price: 21500,
+    price: 22100,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -248,7 +248,7 @@ const products = [
     id: 16,
     name: "Vestido Bengalina",
     description: "Vestido de bengalina al cuerpo, muy elastizado.",
-    price: 13500,
+    price: 14800,
     description2: "Puede hacerse en varios colores!",
     price2: 0,
     category: ["vestidos"],
@@ -304,7 +304,7 @@ const products = [
     name: "Top Panda",
     description:
       "Top hecho en gabardina, el diseño lleva pinzas y hebillas metálicas.",
-    price: 10900,
+    price: 11100,
     description2: "",
     price2: 0,
     category: ["tops"],
@@ -321,7 +321,7 @@ const products = [
     name: "Jardinero Over Marrón",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
-    price: 33400,
+    price: 34900,
     description2:
       "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
     price2: 0,
@@ -338,7 +338,7 @@ const products = [
     name: "Jardinero Over Negro",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
-    price: 33400,
+    price: 34900,
     description2:
       "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
     price2: 0,
@@ -356,7 +356,7 @@ const products = [
     name: "Jardinero Over Jean",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
-    price: 33400,
+    price: 34900,
     description2:
       "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
     price2: 0,
@@ -525,7 +525,7 @@ const products = [
     name: "Vestido Sabrina",
     description:
       "Vestido confeccionado en gabardina, con recortes por el frente y por la espalda. Hermoso para usarse con remeras y topcitos abajo!.",
-    price: 21400,
+    price: 22000,
     description2: "Colores disponibles: Negro y marrón.",
     price2: 0,
     category: ["vestidos"],
@@ -560,7 +560,7 @@ const products = [
     name: "Falda Annie",
     description:
       "Hechas en gabardina rigida, faldas confeccionadas tipo libro con botones en ambos lados! Se hace a pedido y por talle.",
-    price: 13100,
+    price: 13600,
     description2:
       "Colores disponibles: Negro, verde militar, bordo, marron y mostaza.",
     price2: 0,
@@ -575,12 +575,13 @@ const products = [
     ],
     product_qty: 1,
   }, 
+/*
   {
     id: 36,
     name: "Enterito Seri Marrón",
     description:
       "Hechas en tela crep elastizado. Son sueltitos y frescos!",
-    price: 24100,
+    price: 24500,
     description2:
       "Pueden hacerse en más colores a pedido!",
     price2: 0,
@@ -597,7 +598,7 @@ const products = [
     name: "Enterito Seri Celeste",
     description:
       "Hechas en tela crep elastizado. Son sueltitos y frescos!",
-    price: 24100,
+    price: 24500,
     description2:
       "Pueden hacerse en más colores a pedido!",
     price2: 1,
@@ -615,7 +616,7 @@ const products = [
     name: "Remeras Combinadas",
     description:
       "Hechas en tela jersey premium elastizada.",
-    price: 13700,
+    price: 20800,
     description2:
       "Colores disponibles: Beige, Marrón, Rosa, Rosa claro, Blanco y Negro.",
     price2: 0,
@@ -631,7 +632,7 @@ const products = [
       "https://media.discordapp.net/attachments/1149813754792513619/1199834260249514034/Display-Reme-Combinada.jpeg?ex=65e8e5bb&is=65d670bb&hm=72483f6050b74cdf83caa4f74e42ef5a43f869121cbaddf6b78c7e0ad7c7603a&=&format=webp&width=458&height=701",
     ],
     product_qty: 1,
-  }, 
+  }, */
   // {
   //   id:39,
   //   name: "Vestido Rosie",
