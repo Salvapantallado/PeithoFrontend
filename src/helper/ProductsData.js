@@ -600,7 +600,7 @@ const products = [
     price: 24500,
     description2:
       "Pueden hacerse en más colores a pedido!",
-    price2: 1,
+    price2: 0,
     category: ["jardinero"],
     image: [
       "https://live.staticflickr.com/65535/53643951997_69df127a52_c.jpg",
