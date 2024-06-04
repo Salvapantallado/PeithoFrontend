@@ -4,7 +4,7 @@ const products = [
     name: "Falda Midi",
     description:
       "Se hace en fibrana previamente lavada, muchas estampas y colores lisos disponibles! Con cintura elastizada.",
-    price: 16000,
+    price: 17500,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -19,7 +19,7 @@ const products = [
     description: "Top hecho en microtul, muchos colores disponibles!",
     price: 12900,
     description2: "También se hace en mangas corta.",
-    price2: 11800,
+    price2: 13300,
     category: ["tops"],
     image: [
       "https://live.staticflickr.com/65535/53631970985_1c9234494b_b.jpg",
@@ -33,7 +33,7 @@ const products = [
     name: "Falda Lea",
     description:
       "Se hace en gabardina, varios colores y estampas cuadrilles disponibles!",
-    price: 15200,
+    price: 16700,
     description2: "*Estampa de la foto no disponible!",
     price2: 0,
     category: ["faldas"],
@@ -49,7 +49,7 @@ const products = [
     name: "Falda Media Campana",
     description:
       "Se hace en fibrana previamente lavada, muchas estampas y colores lisos disponibles! Con cintura elastizada.",
-    price: 12500,
+    price: 14000,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -64,7 +64,7 @@ const products = [
     name: "Camisa Unisex",
     description:
       "La textura de la tela es MUY linda y cómoda, y los colores son hermosos. Talle aprox M/L pueden pedir las medidas ❤️",
-    price: 21500,
+    price: 23000,
     description2: "Camisa tipo crop precio alternativo",
     price2: 19700,
     category: ["camisas"],
@@ -84,7 +84,7 @@ const products = [
     id: 6,
     name: "Falda Cuadrille",
     description: "Tela de gabardina elastizada! (Sin cierre)",
-    price: 11700,
+    price: 13200,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -98,7 +98,7 @@ const products = [
     id: 7,
     name: "Falda Cutie",
     description: "Falda semitableada por el frente en corte A.",
-    price: 15100,
+    price: 16600,
     description2: "Se hace en gabardina. Varios colores disponibles!",
     price2: 0,
     category: ["faldas"],
@@ -116,7 +116,7 @@ const products = [
     name: "Vestido Panda",
     description:
       "Vestido hecho en gabardina, el diseño lleva pinzas y hebillas metálicas, con un cinturón frontal que se ubica en el bajo busto.",
-    price: 23700,
+    price: 25200,
     description2: "Ideal para usar solo o con otras prendas por debajo!",
     price2: 0,
     category: ["vestidos"],
@@ -131,7 +131,7 @@ const products = [
     name: "Falda Volados",
     description:
       "Se hace en fibrana previamente lavada, muchas estampas y colores lisos disponibles! Con cintura elastizada.",
-    price: 12500,
+    price: 14000,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -148,7 +148,7 @@ const products = [
     name: "Falda Tableada",
     description:
       "Falda tableada, puede hacerse en gabardina en varios colores!",
-    price: 22100,
+    price: 23600,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -162,7 +162,7 @@ const products = [
     name: "Falda Cindy",
     description:
       "La falda Cindy es una falda de corte clásico, pensada para que puedas diseñarla como te guste, estampada, lisa, en gabardina o en jean!",
-    price: 13700,
+    price: 15200,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -181,7 +181,7 @@ const products = [
     name: "Falda Cindy Lana",
     description:
       "Esta falda es igual a la falda Cindy pero se hace en lana sintética",
-    price: 14100,
+    price: 15500,
     description2: "",
     price2: 0,
     category: ["faldas"],
@@ -196,7 +196,7 @@ const products = [
     name: "Remeras",
     description:
       "Remeras estampadas con diseños muy lindos! Medidas: Ancho: 63cm, Largo: 74cm",
-    price: 5200,
+    price: 6700,
     description2: "*Disponibles estampa de Gato, Drama Queen y Alien.",
     price2: 0,
     category: ["tops"],
@@ -216,7 +216,7 @@ const products = [
     name: "Blusa Peter",
     description:
       "Top hecho en fibrana previamente lavada, con cuello de batista y entretela para generar rigidez.",
-    price: 12300,
+    price: 13800,
     description2: "Se puede hacer en varios colores!",
     price2: 0,
     category: ["tops"],
@@ -233,7 +233,7 @@ const products = [
     id: 15,
     name: "Vestido Peter",
     description: "Vestido hecho en lino, lleva bolsillos grandes por delante!",
-    price: 22100,
+    price: 23600,
     description2:
       "Es muy cómodo y lindo a la vista, puede hacerse en varios colores!",
     price2: 0,
@@ -248,7 +248,7 @@ const products = [
     id: 16,
     name: "Vestido Bengalina",
     description: "Vestido de bengalina al cuerpo, muy elastizado.",
-    price: 14800,
+    price: 16300,
     description2: "Puede hacerse en varios colores!",
     price2: 0,
     category: ["vestidos"],
@@ -264,9 +264,9 @@ const products = [
     name: "Top microtul ángeles",
     description:
       "Top hecho en microtul estampado, puede hacerse en manga larga y en manga corta.",
-    price: 14800,
+    price: 16300,
     description2: "Top microtul ángeles descripción 2",
-    price2: 13300,
+    price2: 14800,
     category: ["tops"],
     image: [
       "https://live.staticflickr.com/65535/53631735438_9a65a4c647_c.jpg",
@@ -277,9 +277,9 @@ const products = [
     id: 18,
     name: "Top microtul astral",
     description: "Descripción Top microtul astral",
-    price: 14800,
+    price: 16300,
     description2: "Top microtul astral descripción 2",
-    price2: 13300,
+    price2: 14800,
     category: ["tops"],
     image: [
       "https://live.staticflickr.com/65535/53631863939_fdfcba10f6_c.jpg",
@@ -290,9 +290,9 @@ const products = [
     id: 19,
     name: "Top microtul dragones",
     description: "Descripción Top microtul dragones",
-    price: 14800,
+    price: 16300,
     description2: "Top microtul dragones descripción 2",
-    price2: 13300,
+    price2: 14800,
     category: ["tops"],
     image: [
       "https://live.staticflickr.com/65535/53631863929_2023cac5fc_c.jpg",
@@ -304,7 +304,7 @@ const products = [
     name: "Top Panda",
     description:
       "Top hecho en gabardina, el diseño lleva pinzas y hebillas metálicas.",
-    price: 11100,
+    price: 12600,
     description2: "",
     price2: 0,
     category: ["tops"],
@@ -321,7 +321,7 @@ const products = [
     name: "Jardinero Over Marrón",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
-    price: 34900,
+    price: 36400,
     description2:
       "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
     price2: 0,
@@ -338,7 +338,7 @@ const products = [
     name: "Jardinero Over Negro",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
-    price: 34900,
+    price: 36400,
     description2:
       "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
     price2: 0,
@@ -356,7 +356,7 @@ const products = [
     name: "Jardinero Over Jean",
     description:
       "Jardinero Unisex, puede hacerse en gabardinas de varios colores o en jean!",
-    price: 34900,
+    price: 36400,
     description2:
       "Tiene 5 bolsillos funcionales, hebillas en los tirantes y viene con el cinturón al tono.",
     price2: 0,
@@ -373,7 +373,7 @@ const products = [
     name: "Vestido San Valentín",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
-    price: 21500,
+    price: 23000,
     description2: "Manga larga precio alternativo",
     price2: 0,
     category: ["vestidos"],
@@ -390,7 +390,7 @@ const products = [
     name: "Vestido San Valentín manga larga",
     description:
       "Hecho en fibrana, tiene una caída preciosa con mucho peso por la cantidad de tela en las capas. Realmente no se llega a apreciar la calidad en fotos 🌿 (Al ser elastizado abarca muchos talles, elastiza un montón)",
-    price: 23400,
+    price: 24900,
     description2: "Manga larga precio alternativo",
     price2: 0,
     category: ["vestidos"],
@@ -407,7 +407,7 @@ const products = [
     id: 26,
     name: "Vestido Lexie",
     description: "Vestido hecho en corderoy!",
-    price: 23800,
+    price: 25300,
     description2:
       "Tiene cuello camisero y lleva un cierre funcional por todo el frente.",
     price2: 0,
@@ -423,7 +423,7 @@ const products = [
     id: 27,
     name: "Sweater Nubes",
     description: "El sweater Nube está hecho en piel de cordero bifaz.",
-    price: 26400,
+    price: 27900,
     description2: "Súper suavecito, cómodo, calentito y hermoso!",
     price2: 0,
     category: ["abrigos"],
@@ -439,7 +439,7 @@ const products = [
     name: "Vestido Margot",
     description:
       "Vestido hecho en corderoy de terciopelo elastizado, de una calidad única.",
-    price: 16700,
+    price: 18200,
     description2: "Puede hacerse en otros colores!",
     price2: 0,
     category: ["vestidos"],
@@ -456,7 +456,7 @@ const products = [
     name: "Vestido Atenea Celeste",
     description:
       "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
-    price: 22900,
+    price: 24400,
     description2: "Puede hacerse en varios diseños estampados y colores lisos!",
     price2: 0,
     category: ["vestidos"],
@@ -475,7 +475,7 @@ const products = [
     name: "Vestido Atenea Flores",
     description:
       "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
-    price: 22900,
+    price: 24400,
     description2: "Puede hacerse en varios diseños estampados y colores lisos!",
     price2: 0,
     category: ["vestidos"],
@@ -490,7 +490,7 @@ const products = [
     name: "Vestido Atenea Liso",
     description:
       "Vestido de diseño súper romántico! Mangas tipo farol. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
-    price: 22900,
+    price: 24400,
     description2: "Puede hacerse en varios diseños estampados y colores lisos!",
     price2: 0,
     category: ["vestidos"],
@@ -506,7 +506,7 @@ const products = [
     name: "Vestido Atenea sin mangas",
     description:
       "Vestido de diseño súper romántico! Las tiras de este vestido se ajustan en el moño del escote. Largo midi, lleva cierre por la espalda y una abertura por el frente de la falda.",
-    price: 21100,
+    price: 22600,
     description2: "Puede hacerse en varios diseños estampados y colores lisos!",
     price2: 0,
     category: ["vestidos"],
@@ -525,7 +525,7 @@ const products = [
     name: "Vestido Sabrina",
     description:
       "Vestido confeccionado en gabardina, con recortes por el frente y por la espalda. Hermoso para usarse con remeras y topcitos abajo!.",
-    price: 22000,
+    price: 23500,
     description2: "Colores disponibles: Negro y marrón.",
     price2: 0,
     category: ["vestidos"],
@@ -540,7 +540,7 @@ const products = [
     name: "Top Cassie",
     description:
       "Top con mangas farol, la cintura por el frente lleva entretela para darle mayor rigidez y cuerpo a la prenda!",
-    price: 11700,
+    price: 13200,
     description2:
       "Los tops de la foto son hechos en batista, pero tambien puede hacerse en fibrana. Varios colores y estampas!",
     price2: 0,
@@ -560,7 +560,7 @@ const products = [
     name: "Falda Annie",
     description:
       "Hechas en gabardina rigida, faldas confeccionadas tipo libro con botones en ambos lados! Se hace a pedido y por talle.",
-    price: 13600,
+    price: 15100,
     description2:
       "Colores disponibles: Negro, verde militar, bordo, marron y mostaza.",
     price2: 0,
@@ -580,7 +580,7 @@ const products = [
     name: "Enterito Seri Marrón",
     description:
       "Hechas en tela crep elastizado. Son sueltitos y frescos!",
-    price: 24500,
+    price: 26000,
     description2:
       "Pueden hacerse en más colores a pedido!",
     price2: 0,
@@ -597,7 +597,7 @@ const products = [
     name: "Enterito Seri Celeste",
     description:
       "Hechas en tela crep elastizado. Son sueltitos y frescos!",
-    price: 24500,
+    price: 26000,
     description2:
       "Pueden hacerse en más colores a pedido!",
     price2: 0,
@@ -615,7 +615,7 @@ const products = [
     name: "Remeras Combinadas",
     description:
       "Hechas en tela jersey premium elastizada.",
-    price: 20800,
+    price: 14700,
     description2:
       "Colores disponibles: Beige, Marrón, Rosa, Rosa claro, Blanco y Negro.",
     price2: 0,
